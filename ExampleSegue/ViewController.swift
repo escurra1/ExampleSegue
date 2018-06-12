@@ -2,9 +2,6 @@
 //  ViewController.swift
 //  ExampleSegue
 //
-//  Created by HAROL GOMEZ RUIZ on 23/2/18.
-//  Copyright © 2018 HAROL GOMEZ RUIZ. All rights reserved.
-//
 
 import UIKit
 
@@ -14,6 +11,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print("Load")
     }
     @IBAction func clickBtnShowDetail(_ sender: Any) {
         
